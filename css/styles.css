@@ -1,0 +1,92 @@
+body {
+	background: linear-gradient(black, lightblue, white);
+}
+
+h1 {
+	font-family: Georgia, serif;
+	font-kerning: normal;
+	}
+	
+h2 {
+	font-family: Georgia, serif;
+	margin: 40px;
+}
+	
+p {
+	background-color: #E3F2FD;
+	border-radius: 7px;
+	padding: 5px;
+	}
+	
+img {
+	width: 70%;
+	height: 60%;
+	margin: 20px;
+}
+
+.img01 {
+	width: 100%
+	margin: 0px;
+	padfing: 0px;
+}
+.img02 {
+	width: 100%
+	margin: 0px;
+	padding: 0px;
+}
+.img03 {
+	width: 100%
+	margin: 0px;
+	padding: 0px;
+}
+	
+.po {
+	background-color: #E3E8EB;
+	}
+	
+.first	 {
+  width: 70%;
+  height: 60%;
+  background: inherit;
+  border: 50%;
+  position: relative;
+  -webkit-animation: mymove 10s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 10s infinite;
+  animation-direction: alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {left: 0%;}
+  to {left: 40%;}
+}
+
+@keyframes mymove {
+  from {left: 0%;}
+  to {left: 30%;}
+}
+
+.card header span {
+  float: right;
+  font-size: 1.1em;
+  line-height: 2;
+  font-weight: bold;
+  transform-origin: center;
+}
+
+.img-circle {
+  animation-name: rotate;
+  animation-duration: 11.6s;
+  animation-timing-function: linear;
+  animation-iteration-count: 9999;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
