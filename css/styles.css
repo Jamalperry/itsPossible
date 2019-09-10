@@ -16,7 +16,14 @@ p {
 	background-color: #E3F2FD;
 	border-radius: 7px;
 	padding: 5px;
-	}
+}
+	
+p2:second-child {
+	background-color: #E3F2FD;
+	border-radius: 7px;
+	padding: 5px;
+}
+	
 	
 img {
 	width: 70%;
@@ -89,4 +96,28 @@ img {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.coms {
+	font-size: 10px;
+}
+
+.matcom {
+	display: none;
+}
+
+.dakecom {
+	display: none;
+}
+
+.dakeshow {
+	display: none;
+}
+
+.mathen, .dake {
+	color: grey;
+}
+
+.matshow {
+	display: none;
 }
