@@ -102,7 +102,16 @@ img {
 	font-size: 10px;
 }
 
-.matcom {
+.matcom1, .matcom2, .matcom3 {
+	display: none;
+}
+
+.mathen1, .mathen2, .mathen3{
+	color: grey;
+	cursor: pointer;
+}
+
+.matshow1, .matshow2, .matshow3 {
 	display: none;
 }
 
@@ -114,10 +123,3 @@ img {
 	display: none;
 }
 
-.mathen, .dake {
-	color: grey;
-}
-
-.matshow {
-	display: none;
-}
