@@ -5,7 +5,7 @@ body {
 h1 {
 	font-family: Georgia, serif;
 	font-kerning: normal;
-	}
+}
 	
 h2 {
 	font-family: Georgia, serif;
@@ -32,19 +32,23 @@ img {
 }
 
 .img01 {
-	width: 100%
+	width: 100%;
 	margin: 0px;
-	padfing: 0px;
+	padding: 0px;
 }
 .img02 {
-	width: 100%
+	width: 100%;
 	margin: 0px;
 	padding: 0px;
 }
 .img03 {
-	width: 100%
+	width: 100%;
 	margin: 0px;
 	padding: 0px;
+}
+
+.img-circle {
+	border: 5px solid #81D4FA;
 }
 	
 .po {
@@ -106,12 +110,25 @@ img {
 	display: none;
 }
 
-.mathen1, .mathen2, .mathen3{
+.mathen1, .mathen2, .mathen3 {
+	color: grey;
+	cursor: pointer;
+}
+
+.mathen4, .mathen5, .mathen6 {
 	color: grey;
 	cursor: pointer;
 }
 
 .matshow1, .matshow2, .matshow3 {
+	display: none;
+}
+
+.matcom4, .matcom5 {
+	display: none;
+}
+
+.matshow4, .matshow5 {
 	display: none;
 }
 
