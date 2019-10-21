@@ -2,6 +2,33 @@ body {
 	background: linear-gradient(black, lightblue, white);
 }
 
+.main, .badmain {
+	display: none;
+}
+
+.entrance p {
+	background: inherit;
+}
+
+.entrance h1 {
+	color: #00A5EC;
+	font-family: 'Georgia', serif;
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow: -1px -1px 1px black;
+	white-space: pre-wrap;
+}
+
+.entrance button {
+	margin: 20px;
+	padding: 7px;
+}
+
+.entrance img {
+	margin-right: auto;
+	margin-left: auto;
+}
+
 h1 {
 	font-family: Georgia, serif;
 	font-kerning: normal;
@@ -124,11 +151,11 @@ img {
 	display: none;
 }
 
-.matcom4, .matcom5 {
+.matcom4, .matcom5, .matcom6 {
 	display: none;
 }
 
-.matshow4, .matshow5 {
+.matshow4, .matshow5, .matshow6 {
 	display: none;
 }
 
