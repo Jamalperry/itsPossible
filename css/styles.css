@@ -29,6 +29,10 @@ body {
 	margin-left: auto;
 }
 
+.badmain button {
+	margin-top: 20px;
+}
+
 h1 {
 	font-family: Georgia, serif;
 	font-kerning: normal;

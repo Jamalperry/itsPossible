@@ -11,6 +11,13 @@ $(document).ready(function() {
 		});
 	});
 	
+	$(".btnback").click(function() {
+		$(".badmain").fadeToggle("fast", function() {
+		$(".entrance").fadeToggle(3000);
+		});
+	});
+	
+	
 	
 	
 	$(".mathen1").click(function() {
